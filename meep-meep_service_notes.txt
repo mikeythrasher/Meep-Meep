@@ -1,0 +1,35 @@
+sudo nano meep-meep.service
+
+
+
+sudo mv meep-meep.service /lib/systemd/system/  (moves to correct location)
+
+
+
+sudo systemctl enable meep-meep.service  (activates service)
+
+
+
+
+
+To disable your service, enter:
+
+sudo systemctl disable meep-meep.service
+
+
+
+To manually start your service, enter:
+
+sudo service meep-meep start
+
+
+
+To manually stop your service, enter:
+
+sudo service meep-meep stop
+
+
+
+To check the status of your service, enter:
+
+sudo service meep-meep status
