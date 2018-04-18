@@ -157,6 +157,9 @@ def process_event(assistant, event):
         elif text == 'move forward':
             assistant.stop_conversation()
             forward_full()
+        elif text == 'bring me a beer':
+            assistant.stop_conversation()
+            forward_full()
         elif text == 'speed up':
             assistant.stop_conversation()
             forward_full()
